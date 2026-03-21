@@ -8,13 +8,10 @@ Small, focused scripts for everyday automation and workflow speed-ups.
 
 Automates the Photofeeler "new test" flow (category, subject, target voters, and test size).
 
-Configure the `CFG` object at the top of the file:
+Configure settings in the script UI (saved persistently in Tampermonkey):
 
-- `category`: `dating` | `business` | `social`
-- `subject`: `gender` and `age`
-- `voters`: `gender`, `ageSliderMin`, `ageSliderMax`
-- `testSize`: `0`, `10`, `20`, `40`, or `80`
-- `autoNext`: `true` or `false`
+- Open settings from the Tampermonkey menu, `Alt+Shift+P`, or the `Auto setup` floating button.
+- Set `category`, `subject` (`gender`, `age`), `voters` (`gender`, age range slider), `test size`, and `auto-next`.
 
 ## notes
 
