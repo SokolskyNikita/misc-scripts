@@ -1,9 +1,13 @@
 // ==UserScript==
 // @name         Photofeeler Auto-Submit
-// @namespace    http://tampermonkey.net/
-// @version      2.2
+// @namespace    https://github.com/SokolskyNikita/misc-scripts
+// @version      2.3
 // @description  Auto-fills and auto-advances through Photofeeler test setup
 // @match        https://www.photofeeler.com/*
+// @homepageURL  https://github.com/SokolskyNikita/misc-scripts
+// @supportURL   https://github.com/SokolskyNikita/misc-scripts/issues
+// @updateURL    https://raw.githubusercontent.com/SokolskyNikita/misc-scripts/main/tampermonkey/photofeeler-auto-submit.js
+// @downloadURL  https://raw.githubusercontent.com/SokolskyNikita/misc-scripts/main/tampermonkey/photofeeler-auto-submit.js
 // @grant        none
 // ==/UserScript==
 
