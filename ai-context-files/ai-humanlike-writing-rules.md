@@ -1,6 +1,6 @@
 # Rules for AI to sound human
 
-Extracted from [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Each rule addresses a common pattern Wikipedia editors have noticed over the past 3 years.
+Extracted from [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and a few other similar sources. Each rule addresses a common pattern Wikipedia editors have noticed over the past 3 years.
 
 ---
 
@@ -196,14 +196,14 @@ In this style, omit the serial comma. AI often regularizes lists into house styl
 
 ---
 
-### 2.7. Avoid formulaic transitions and framing phrases
+### 2.7. Avoid formulaic transitions, framing phrases and meta-commentary
 
-AI relies on a predictable set of transitional phrases to organize content, often making the text needlessly wordy and signaling an artificial structure.
+AI relies on a predictable set of transitional phrases to organize content. It also narrates its own text structure ("In this section, we'll look at…") and opens with cliché framing that could be swapped onto any article ("In today's fast-paced world…").
 
 **Blacklisted phrases:**
-That being said, At its core, To put it simply, This underscores the importance of, A key takeaway is, From a broader perspective
+That being said, At its core, To put it simply, This underscores the importance of, A key takeaway is, From a broader perspective, In this section we'll, Now that we've explored, As mentioned earlier, In today's fast-paced world, In the dynamic landscape of, Have you ever wondered
 
-**Rule:** Connect paragraphs and sentences using the logical flow of ideas rather than dropping in canned transitional phrases. If a transition phrase can be cut without losing meaning, cut it.
+**Rule:** Connect paragraphs and sentences using the logical flow of ideas rather than dropping in canned transitional phrases. If a transition phrase can be cut without losing meaning, cut it. Never narrate the structure of the text itself — just explain the topic directly. If your opening paragraph could be swapped onto a different article without anyone noticing, rewrite it.
 
 ---
 
@@ -216,6 +216,44 @@ AI often favors grand-sounding Latin or Greek derivatives over simple Anglo-Saxo
 > The landscape is **devoid of** any vegetation.
 
 **Rule:** Prefer simple, direct words. Use "has no" or "lacks" instead of "is devoid of." Avoid unnecessarily complex words when a simpler alternative exists.
+
+---
+
+### 2.9. Prefer verbs over nominalizations and keep noun phrases lean
+
+AI gravitates toward an impersonal nominal register — turning verbs into abstract nouns and packing meaning into heavy noun phrases. This produces the bureaucratic, depersonalized tone that characterizes corporate and institutional AI text.
+
+**What AI does:**
+
+> The implementation of the solution resulted in improvement of the workflow.
+
+vs. "We implemented the solution and the workflow improved."
+
+> The recently implemented cross-departmental employee satisfaction improvement initiative yielded positive results.
+
+**Rule:** Push complexity into the verb, not the noun phrase. Prefer "we analyzed" over "an analysis was conducted." Break apart noun pileups — if a noun phrase has more than three words before the head noun, restructure the sentence. Use personal pronouns ("we," "I," "they") where appropriate rather than defaulting to passive or impersonal constructions.
+
+---
+
+### 2.10. Introduce genuinely surprising word choices
+
+AI selects the most statistically probable word at each position, producing text with uniformly low perplexity. This predictability is the primary signal detection tools measure.
+
+**Rule:** Don't always reach for the expected word. At intervals, choose a word that is precise but not the first one that comes to mind. This doesn't mean being random or thesaurus-mining — it means resisting the path of least resistance when a less obvious word is more accurate or vivid.
+
+---
+
+### 2.11. Don't ask a question and immediately answer it
+
+AI uses the rhetorical-question-then-answer pattern as a structural crutch: "What does this mean? It means…" or "The solution? It's simpler than you think."
+
+**What AI does:**
+
+> What makes this approach effective? It comes down to three factors.
+
+> The key question is: can we do better? The answer is a resounding yes.
+
+**Rule:** State points directly. If you catch yourself writing a question followed by its answer in the next sentence, collapse them into a single declarative statement.
 
 ---
 
@@ -241,9 +279,9 @@ AI bolds phrases mechanically, like a slide deck or listicle, emphasizing "key" 
 
 ---
 
-### 3.3. Do not write inline-header vertical lists
+### 3.3. Do not default to lists and enumeration
 
-AI defaults to a specific list format: a bullet or number, followed by a bolded inline header, then a colon, then descriptive text.
+AI reaches for bullet points, numbered lists and the "**Bold Header:** Description" format as its default structure, even when a topic calls for exploration rather than enumeration. It also uses sequential markers ("First… Second… Third…") as a crutch in running prose.
 
 **What AI does:**
 
@@ -251,7 +289,7 @@ AI defaults to a specific list format: a bullet or number, followed by a bolded 
 > - **AEO (Answer Engine Optimization):** Techniques focused on optimizing content...
 > - **GEO (Generative Engine Optimization):** Strategies for ensuring businesses are cited...
 
-**Rule:** Use running prose when a list isn't necessary. When a list is necessary, avoid the "**Bold Header:** Description" format in every item. If items need headers, use actual subheadings. If they don't, use plain list items without inline bolded labels.
+**Rule:** If a topic requires exploration, argument or nuance, use continuous prose. When you catch yourself writing "First… Second… Third…" consider whether a more organic structure works better. When a list genuinely is the right format, avoid the "**Bold Header:** Description" pattern in every item — use actual subheadings if items need headers, or plain list items if they don't.
 
 ---
 
@@ -303,9 +341,27 @@ AI wraps up articles or sections with "In summary," "In conclusion," or "Overall
 
 ### 4.2. Do not restate ideas without adding insight
 
-AI often restates the same concept multiple times in slightly different wording, padding the text without advancing the argument.
+AI often restates the same concept multiple times in slightly different wording, padding the text without advancing the argument. A common form: ending every paragraph with a summary sentence that rephrases what the paragraph just said, often starting with "Whether…," "Ultimately…" or "This demonstrates…"
 
-**Rule:** Make a point once, clearly. If you revisit a concept, it must be to add new information, evidence or a different perspective, not just to rephrase what was already said.
+**Rule:** Make a point once, clearly. If you revisit a concept, it must be to add new information, evidence or a different perspective, not just to rephrase what was already said. Do not end paragraphs with summary sentences — trust the reader to absorb the information without immediate recap.
+
+---
+
+### 4.3. Use interactional discourse markers
+
+AI connects ideas through formal, outline-like transitions ("Furthermore," "Moreover," "In addition"). Human writers use informal discourse markers that signal a thinking mind rather than a structured outline.
+
+**Examples of human discourse markers:** mind you, granted, to be fair, here's the thing, now, look, sure, right, anyway, thing is, admittedly, fair enough
+
+**Rule:** Let ideas connect through markers that suggest a person thinking aloud. Let ideas bleed across paragraph boundaries rather than wrapping each paragraph into a sealed unit. These markers signal live reasoning rather than pre-organized structure.
+
+---
+
+### 4.4. Allow natural topic drift
+
+AI structures text as a clean linear progression where each paragraph follows logically from the last. Human writing digresses, circles back, interrupts its own argument and returns to earlier points from a new angle.
+
+**Rule:** Don't force smooth transitions when ideas don't logically connect. Include digressions when they're relevant. Circle back to earlier points when new context makes them worth revisiting. Not every paragraph needs to advance the argument — some can complicate it.
 
 ---
 
@@ -322,11 +378,30 @@ while specific details are limited/scarce, not widely available/documented/discl
 
 ---
 
-### 5.2. Express authentic emotion
+### 5.2. Express authentic voice, stance and emotion
 
-When attempting empathy or passion, AI often produces emotion that feels "flat," scripted or formulaic.
+AI defaults to an omniscient declarative tone — no personal stakes, no uncertainty, no frustration. When it does attempt emotion, it skews toward joy and positivity; humans express a far wider range including fear, frustration, disgust and ambivalence. AI also avoids personal stance markers and sensory or experiential language.
 
-**Rule:** If the context calls for emotion, ground it in concrete details and specific reactions rather than generic expressions of sympathy or excitement.
+**What AI avoids that humans use naturally:**
+- Stance markers: "I suspect," "from what I've seen," "this strikes me as," "my sense is"
+- Negative emotions: frustration, annoyance, doubt, discomfort, ambivalence
+- Sensory/experiential language: "felt sick," "couldn't stand it," "heard," "read somewhere that"
+
+**Rule:** If the context calls for a voice, give it genuine texture. Include personal stance markers where appropriate — express uncertainty or conviction rather than defaulting to the view from nowhere. Don't sanitize the emotional range to only positive feelings; if something is annoying, say it's annoying. Ground claims in sensory and experiential language when it fits — reference what you saw, heard, read or felt rather than only what you "analyzed" or "observed."
+
+---
+
+### 5.3. Kill unearned profundity
+
+AI inserts dramatic, pivot-sounding transitions that claim emotional weight without establishing it: "Something shifted." "Everything changed." "But here's the thing." "Then I realized." These read as profundity on credit — the sentence claims a revelation but the preceding text hasn't built the stakes.
+
+**What AI does:**
+
+> I had always approached the problem methodically. **Then something shifted.** I began to see the data differently.
+
+> The team worked through the night. **And that changed everything.**
+
+**Rule:** If a sentence claims everything changed, the preceding text must establish concrete stakes that make the shift meaningful. Delete dramatic transitions that aren't earned by what came before. "But here's the thing" is only justified if the thing that follows is genuinely surprising.
 
 ---
 
@@ -358,17 +433,26 @@ AI frequently generates references that look real but do not correspond to actua
 
 ### 7.1. Be specific, not generic
 
-The deepest pattern underlying all the above: AI regresses to the statistical mean. It replaces specific, unusual, nuanced facts with generic, positive-sounding descriptions. "Inventor of the first train-coupling device" becomes "a revolutionary titan of industry." The subject becomes simultaneously less specific and more exaggerated.
+The deepest pattern underlying all the above: AI regresses to the statistical mean. It replaces specific, unusual, nuanced facts with generic, positive-sounding descriptions. "Inventor of the first train-coupling device" becomes "a revolutionary titan of industry." The subject becomes simultaneously less specific and more exaggerated. Its examples are too clean, its details too interchangeable.
 
-**Rule:** Prefer the concrete over the abstract, the specific over the general, the factual over the evaluative. If you find yourself writing something that could apply equally to dozens of subjects, it is not informative enough to include.
+**Test:** A good detail should be specific enough that it couldn't describe a different instance of the same category. If your description of a city could describe any city, or your example of a problem could illustrate any problem, make it more particular.
+
+**Rule:** Prefer the concrete over the abstract, the specific over the general, the factual over the evaluative. If you find yourself writing something that could apply equally to dozens of subjects, it is not informative enough to include. When using examples, include ones that are messy, partial or contradictory — if an example works too neatly to illustrate your point, it reads as fabricated. Real-world examples require qualification.
 
 ---
 
 ### 7.2. Write at variable density
 
-AI produces text at a uniform density and rhythm — every paragraph the same length, every sentence the same structure, every section the same arc. Human writing varies: some paragraphs are one sentence, some are five. Some sections are long, some are short. Some sentences are clipped, some are elaborate.
+AI produces text at a uniform density and rhythm — every paragraph the same length, every sentence the same structure, every section the same arc. Human writing varies: some paragraphs are one sentence, some are five. Some sections are long, some are short. Some sentences are clipped, some are elaborate. AI clusters sentences in the 10–30 token range; mild variation within that band isn't enough.
 
-**Rule:** Vary paragraph length, sentence length and section depth. Uniformity itself is a signal.
+**Techniques:**
+- Create extreme sentence length contrasts — genuine 3–5 word fragments alongside 40+ word constructions.
+- Distribute the variation unevenly. Cluster short punchy sentences together in one paragraph, then follow with a long meandering one. The variation should be lumpy, not smoothly distributed across the text.
+- Vary sentence openings aggressively. Read only the first three words of each sentence in sequence — if you see patterns ("The X is," "This Y was," "It Z that"), rewrite.
+- Not every point deserves equal airtime. Let some sections run long while others are a single paragraph.
+- Don't always build simple→complex or general→specific. Start with a specific detail, pull back to context, then dive into a different aspect.
+
+**Rule:** Vary paragraph length, sentence length, sentence openings, section depth and information architecture. Uniformity itself is a signal — in rhythm, in structure and in the ordering of ideas.
 
 ---
 
@@ -380,8 +464,18 @@ Human writing has rough edges: occasional repetition, an "is" where a fancier ve
 
 ---
 
-### 7.4. Maintain a consistent register
+### 7.4. Maintain a consistent register and match it to genre
 
 A sudden shift from casual grammar to flawless formal prose mid-document is suspicious. So is a mismatch between the writer's apparent background and the English variety used (e.g., an Indian writer on an Indian topic suddenly producing American English). Human writers maintain a roughly consistent voice throughout a piece; AI-assisted passages often read like they were spliced in from a different author.
 
-**Rule:** Write at one register throughout. If the surrounding text is casual, keep it casual. If it is formal, stay formal. A sudden jump in polish or dialect mid-document reads as a seam between human and machine.
+AI also deploys words in the wrong genre. "Cacophony," "solace" and "amidst" are fine in literary essays but conspicuous in emails, technical docs or encyclopedia entries. The problem isn't the words themselves — it's using them where they don't belong.
+
+**Rule:** Write at one register throughout. If the surrounding text is casual, keep it casual. If it is formal, stay formal. A sudden jump in polish or dialect mid-document reads as a seam between human and machine. Match vocabulary to genre — don't use literary language in technical writing or formal diction in casual contexts.
+
+---
+
+### 7.5. Go past your first idea
+
+The first example, metaphor or argument you reach for is the most statistically probable one — the same one AI would produce. The most common analogy, the most obvious framing, the most expected reference.
+
+**Rule:** Push past your first instinct. When you've written the obvious example, ask whether a less expected one would be more vivid or precise. This applies to metaphors, examples, argument structures and even section organization. The third or fourth idea is usually more interesting than the first.
