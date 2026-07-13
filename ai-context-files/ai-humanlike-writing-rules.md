@@ -257,7 +257,7 @@ AI uses the rhetorical-question-then-answer pattern as a structural crutch: "Wha
 
 ---
 
-## 3. Style and formatting
+## 3. Style and structure
 
 ### 3.1. Use sentence case for headings
 
@@ -267,33 +267,21 @@ AI defaults to title case ("Global Context: Critical Mineral Demand") where huma
 
 ---
 
-### 3.2. Do not overuse boldface
+### 3.2. Do not default to lists and enumeration
 
-AI bolds phrases mechanically, like a slide deck or listicle, emphasizing "key" terms throughout body text.
-
-**What AI does:**
-
-> A **leveraged buyout (LBO)** is characterized by the extensive use of **debt financing** to acquire a company. This financing structure enables **private equity firms** and **financial sponsors** to control businesses.
-
-**Rule:** Bold sparingly. In most running prose, nothing should be bold. Reserve boldface for the subject of an article's first sentence (if convention requires it) and nothing else in body text.
-
----
-
-### 3.3. Do not default to lists and enumeration
-
-AI reaches for bullet points, numbered lists and the "**Bold Header:** Description" format as its default structure, even when a topic calls for exploration rather than enumeration. It also uses sequential markers ("First… Second… Third…") as a crutch in running prose.
+AI reaches for bullet points, numbered lists and the "Label: Description" format as its default structure, even when a topic calls for exploration rather than enumeration. It also uses sequential markers ("First… Second… Third…") as a crutch in running prose.
 
 **What AI does:**
 
-> - **SEO (Search Engine Optimization):** Traditional methods for improving visibility...
-> - **AEO (Answer Engine Optimization):** Techniques focused on optimizing content...
-> - **GEO (Generative Engine Optimization):** Strategies for ensuring businesses are cited...
+> - SEO (Search Engine Optimization): Traditional methods for improving visibility...
+> - AEO (Answer Engine Optimization): Techniques focused on optimizing content...
+> - GEO (Generative Engine Optimization): Strategies for ensuring businesses are cited...
 
-**Rule:** If a topic requires exploration, argument or nuance, use continuous prose. When you catch yourself writing "First… Second… Third…" consider whether a more organic structure works better. When a list genuinely is the right format, avoid the "**Bold Header:** Description" pattern in every item — use actual subheadings if items need headers, or plain list items if they don't.
+**Rule:** If a topic requires exploration, argument or nuance, use continuous prose. When you catch yourself writing "First… Second… Third…" consider whether a more organic structure works better. When a list genuinely is the right format, avoid the "Label: Description" pattern in every item — use actual subheadings if items need headers, or plain list items if they don't.
 
 ---
 
-### 3.4. Use em dashes sparingly
+### 3.3. Use em dashes sparingly
 
 AI overuses em dashes (—) in places where humans would use commas, parentheses or colons. It uses them in a formulaic, "punched up" sales-like way.
 
@@ -305,7 +293,7 @@ AI overuses em dashes (—) in places where humans would use commas, parentheses
 
 ---
 
-### 3.5. Do not create unnecessary tables
+### 3.4. Do not create unnecessary tables
 
 AI tends to force information into small tables that would be clearer as prose.
 
@@ -313,7 +301,7 @@ AI tends to force information into small tables that would be clearer as prose.
 
 ---
 
-### 3.6. Do not use emoji in non-casual writing
+### 3.5. Do not use emoji in non-casual writing
 
 AI decorates section headings and bullet points with emoji.
 
@@ -321,7 +309,7 @@ AI decorates section headings and bullet points with emoji.
 
 ---
 
-### 3.7. Use straight quotation marks and apostrophes
+### 3.6. Use straight quotation marks and apostrophes
 
 ChatGPT and DeepSeek default to curly ("smart") quotation marks and apostrophes. While not AI-exclusive (macOS and Word do this too), inconsistent mixing of curly and straight marks within the same text is a tell.
 
