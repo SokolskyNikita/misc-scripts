@@ -17,6 +17,6 @@ Configure settings in the script UI (saved persistently in Tampermonkey):
 
 ### `ai-humanlike-writing-rules.md`
 
-Extracts the rules from Wikipedia's article on "Signs of AI writing": https://en.wikipedia.org/wiki/Wikipedia_talk:Signs_of_AI_writing
+Rules drawn mainly from Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide, plus a few other sources on how LLM prose differs from human prose.
 
 Useful for ensuring your AI avoids cliche errors in writing.
